@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Mikinori Kuwata（桑田幹哲） | Atmospheric Chemistry</title>  <style>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f6f7fb;
+      color: #222;
+    }
+
+    header {
+      background: #1f2a44;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2em;
+    }
+
+    nav {
+      background: white;
+      display: flex;
+      justify-content: center;
+      gap: 18px;
+      padding: 12px;
+      border-bottom: 1px solid #ddd;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      color: #1f2a44;
+      font-size: 1em;
+    }
+
+    nav button.active {
+      border-bottom: 2px solid #1f2a44;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 40px auto;
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      display: none;
+    }
+
+    section.active {
+      display: block;
+    }
+
+    h2 {
+      border-left: 5px solid #1f2a44;
+      padding-left: 10px;
+    }
+
+    .members {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .member {
+      background: #fafafa;
+      border: 1px solid #eee;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+    }
+
+    .member img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+      background: #ddd;
+    }
+
+    .role {
+      font-size: 0.9em;
+      color: #666;
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Mikinori Kuwata</h1>
+  <p>Department of Atmospheric and Oceanic Sciences / Peking University / Atmospheric Chemistry</p>
+  <p>Email: kuwata@pku.edu.cn</p>
+</header>
+
+<nav>
+  <button class="active" onclick="showTab('research', this)">Research</button>
+  <button onclick="showTab('cv', this)">CV</button>
+  <button onclick="showTab('publications', this)">Publications</button>
+  <button onclick="showTab('career', this)">経歴</button>
+</nav>
+
+<section id="research" class="active">
+
+  <h2>Research</h2>
+
+  <p>
+    Aerosol particles in the atmosphere play an important role in climate and environmental processes. We investigate their chemistry and interactions with water. We also develop new experimental techniques and instruments, as many key processes cannot be fully understood without advances in measurement methods. Through these studies, we aim to improve our understanding of the atmospheric environment and its impact on climate.
+  </p>
+
+  <h3>Hygroscopicity and Phase Transitions at Low Temperatures</h3>
+  <p>Atmospheric aerosol particles can exist in liquid, semi-solid, or solid states. The phase state of aerosol particles influences interactions with water vapor and atmospheric trace gases. Under cold atmospheric conditions, many particles become highly viscous or glassy, potentially altering their ability to exchange water with the surrounding environment. Understanding these processes is important for predicting aerosol impacts on cloud formation and atmospheric chemical processes. To investigate aerosol hygroscopicity at low temperatures, our group developed unique instruments, including a low-temperature hygroscopicity tandem differential mobility analyzer (low-T HTDMA) and a temperature-controlled impactor for bounce measurement. These instruments enable measurements of suspended submicrometer particles at temperatures down to approximately −20 °C. Using these instruments, we study how low temperatures influence water uptake, phase transitions, and diffusion processes within aerosol particles. Our research has revealed that slow molecular diffusion affects aerosol water content under cold conditions, highlighting the importance of kinetic limitations in addition to thermodynamic equilibrium.</p>
+
+<h4>Key References</h4>
+
+<p>
+<a href="https://doi.org/10.1016/j.jaerosci.2022.106111">
+Cheng and Kuwata, J. Aerosol Sci., 2023, 168, 106111.
+</a><br>
+
+<a href=" https://doi.org/10.1029/2024JD041440">
+Cheng et al., J. Geophys. Res.-Atmos., 2025, 129, e2024JD041440.
+</a><br>
+
+<a href="https://doi.org/10.1029/2025JD043825">
+Hou et al., J. Geophys. Res.-Atmos., 2025, 130, e2025JD043825.
+</a>
+</p>
+  <h3>Aerosol Chemistry at Low Temperatures</h3>
+  <p>Temperature is a key factor controlling the chemical evolution of atmospheric aerosol particles, in addition to secondary formation. As temperature decreases, organic aerosol particles often become highly viscous, slowing down the transport of reactive molecules. In addition, rates of chemical reactions and gas-particle partitioning, which are critical for secondary formation, change with temperature. These phenomena are particularly important in wintertime and in the upper troposphere, where low temperatures are common. Our group investigates how temperature influences aerosol chemistry by conducting laboratory experiments. For this purpose, we developed an aerosol flow tube reactor capable of operating over a wide temperature range (−20 °C to +40 °C). This work aims to improve our understanding of the impact of temperature on aerosol chemistry.</p>
+
+<h4>Key References</h4>
+
+<p>
+<a href="https://doi.org/10.1029/2025JD044172">
+Liu et al., J. Geophys. Res.-Atmos., 2025, 130, e2025JD044172.
+</a><br>
+
+<a href=" https://doi.org/10.5194/acp-24-5625-2024">
+Liu et al., Atmos.Chem.Phys., 2024, 24, 5625–5636.
+</a><br>
+
+<a href="https://doi.org/10.5194/amt-17-755-2024">
+He et al., Atmos. Meas. Tech., 2025, 130, 755–764.
+</a>
+
+
+  <h3>Acidity (pH) of Aerosol Particles</h3>
+  <p>Acidity is one of the most fundamental properties of aqueous aerosol particles. The acidity of aerosol particles influences gas–particle partitioning, particle-phase chemical reactions, and health effects. The acidity of aerosol particles is commonly represented by pH. Despite its importance, direct measurements of aerosol pH remain challenging. As a result, aerosol pH has traditionally been estimated using thermodynamic models, although experimental validation of the models has been limited. Our group develops a fluorescence-based method to determine the pH of suspended submicrometer particles in real time. Using the experimental tool, we study how gas–particle interactions influence aerosol acidity. Our recent work suggests that kinetic limitations can play an important role in regulating particle pH, indicating that aerosol acidity cannot always be predicted solely based on thermodynamic equilibrium. This research contributes to a better understanding of aerosol chemistry and provides new constraints for atmospheric models that simulate particle composition, air quality, and climate-relevant processes.</p>
+
+<h4>Key References</h4>
+
+<p>
+<a href="https://doi.org/10.1029/2025JD044624">
+Li and Kuwata, J. Geophys. Res.-Atmos., 2026, 131, e2025JD044624.
+</a><br>
+
+<a href=" https://doi.org/10.1029/2023JD039873">
+Budisulistiorini et al., J. Geophys. Res.-Atmos., 2024, 129, e2023JD039873.
+</a><br>
+
+<a href="https://doi.org/10.1021/acs.est.3c01517">
+Li and Kuwata, Environ.Sci.Technol., 2023, 57, 8701–8707.
+</a>
+
+
+  <h3>Past Project: Tropical Peatland Fire Haze in Southeast Asia</h3>
+  <p>Tropical peatland fires in Southeast Asia are one of the most important types of wildfires in the world, inducing haze events in the region. Tropical peatland haze impacts human health, ecosystems, and climate. Despite its importance, field studies of peatland fire haze have historically been limited, making it difficult to accurately assess their environmental impacts and represent them in atmospheric models.
+
+Our group investigated the physical and chemical properties of aerosol particles emitted from tropical peatland fire hazes through a combination of field observations, laboratory studies, and data analysis. These studies revealed how atmospheric aging modifies the chemical composition, hygroscopicity, and optical properties of biomass-burning aerosols. By providing observational constraints for atmospheric models, our research contributed to a better understanding of regional air quality, aerosol–cloud interactions, and climate effects associated with large-scale biomass burning.</p>
+
+<h4>Key Reference</h4>
+
+<p>
+<a href="https://doi.org/10.1016/j.atmosenv.2024.120575">
+Kuwata, Atmos.Environ., 2024, 331, 120575.
+</a><br>
+
+
+
+</section>
+<section id="cv">
+  <h2>Work Experience</h2>
+  <ul>
+    <li>2019–present: Peking University, Assistant/Associate Professor</li>
+    <li>2013–2019: Nanyang Technological University/Earth Observatory of Singapore, Assistant Professor</li>
+    <li>2009–2013: Harvard University, Postdoctoral Fellow</li>
+  </ul>
+  <h2>Education</h2>
+  <ul>
+    <li>2009: Ph.D., The University of Tokyo (Earth and Planetary Sciences)</li>
+    <li>2004: B.Sc., The University of Tokyo (Chemistry)</li>
+  </ul>
+  <h2>Mentoring</h2>
+  <ul>
+  <h3>Current Members</h3>
+  <ul>
+  <h4>Ph.D. Students</h4>
+  <ul>
+	<li>Weihan Li (2021–)</li>
+	<li>Hou Suyi (2022–)</li>
+	<li>Xinye Luo (2023–)</li>
+	<li>Ruiwen Tu (2024–)</li>
+	<li>Yanhao Wang (2025–)</li>
+  </ul>
+  </ul>
+  <h3>Previous Members</h3>
+  <ul>
+  <h4>Postdocs</h4>
+  <ul>
+	<li>Wen-Chien Lee (2019–2021)</li>
+	<li>Reshmi Das (2017–2018)</li>
+	<li>Gissella Lebron (2015–2017)</li>
+	<li>Sri Hapsari Budisulistiorini (2015–2019)</li>
+	<li>Chen Jing (2014–2020)</li>
+  </ul>
+  <h4>Research Engineer</h4>
+  <ul>
+	<li>Guorong Chen (2016–2021)</li>
+  </ul>
+  <h4>Ph.D. Students</h4>
+  <ul>
+	<li>Wenli Liu (2020–2025)</li>
+	<li>Manqiu Cheng (2020–2025)</li>
+	<li>Liudongqing Yang (2016–2022)</li>
+	<li>Wen-Chien Lee (2015–2019)</li>
+  </ul>
+
+  </ul>
+
+  </ul>
+
+
+</section>
+
+<section id="publications">
+  <h2>Publications</h2>
+  <ul>
+<p> Full publication list:
+    <a href="https://scholar.google.com/citations?user=pEEnZTQAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
+  Google Scholar
+</a>
+</p> 
+  </ul>
+</section>
+
+<section id="career">
+  <h2>桑田幹哲 (KUWATA Mikinori)</h2>
+  <ul>
+   <li>PM2.5などの大気汚染物質が気候・気象・環境に与える影響を明らかにするため、独自の測定装置や実験システムを開発しながら研究を行っています。</li>
+
+  <h3>職歴</h3>
+  <ul>
+    <li>2019–present: 北京大学 物理学院 大気海洋科学系, Assistant/Associate Professor</li>
+    <li>2013–2019: 南洋理工大学 Asian School of the Environment / Earth Observatory of Singapore, Assistant Professor</li>
+    <li>2009–2013: Harvard大学 School of Engineering and Applied Sciences, 博士研究員</li>
+   </ul>
+
+  <h3>学歴</h3>
+  <ul>
+<li>2009年：東京大学大学院理学系研究科地球惑星科学専攻博士課程修了</li>
+<li>2006年：東京大学大学院理学系研究科地球惑星科学専攻修士課程修了</li>
+<li>2004年：東京大学理学部化学科卒業</li>
+<li>2000年：愛知県立刈谷高校卒業</li>
+
+  </ul>
+
+
+  </ul>
+</section>
+
+<script>
+function showTab(id, btn) {
+  const sections = document.querySelectorAll('section');
+  const buttons = document.querySelectorAll('nav button');
+
+  sections.forEach(s => s.classList.remove('active'));
+  buttons.forEach(b => b.classList.remove('active'));
+
+  document.getElementById(id).classList.add('active');
+  btn.classList.add('active');
+}
+</script>
+
+</body>
+</html>
